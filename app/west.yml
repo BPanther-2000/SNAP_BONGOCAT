@@ -6,7 +6,7 @@ manifest:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
     - name: zmkfirmware
-      url-base: https://github.com/BPanther-2000
+      url-base: https://github.com/zmkfirmware
     - name: upstream
       url-base: https://github.com/zephyrproject-rtos
     - name: babblesim
