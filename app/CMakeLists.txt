@@ -13,7 +13,7 @@ list(APPEND ZEPHYR_EXTRA_MODULES
 
 # Find Zephyr. This also loads Zephyr's build system.
 find_package(Zephyr REQUIRED HINTS ../zephyr)
-project(zmk)
+project(SNAP_BONGOCAT)
 
 zephyr_linker_sources(SECTIONS include/linker/zmk-behaviors.ld)
 zephyr_linker_sources(RODATA include/linker/zmk-events.ld)
